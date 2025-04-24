@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#firstDivision {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* border: 1px solid grey; */
+}
+
+#en,
+#usd,
+#searchIcon {
+    height: 20px;
+    border: 0.1px solid grey;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#leftSide {
+    display: flex;
+    /* gap: 25px; */
+    /* margin-left: 20px; */
+    border: 1px solid grey;
+
+}
+
+#mobile {
+    height: 20px;
+    border: 0.1px solid grey;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#signIn,
+#register {
+    height: 20px;
+    border: 0.1px solid grey;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#rightSide {
+    display: flex;
+    /* gap: 25px;
+    margin-right: 20px; */
+    border: 1px solid grey;
+}
+
+#secondDivision {
+    border: 1px solid grey;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    /* backdrop-filter: blur(10px); */
+}
+
+#listRace {
+    /* border: 1px solid black; */
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    display: flex;
+    width: 800px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imageContainer {
+    background-image: url(/images/Waterfall.jpeg);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#bestPlace {
+    /* border: 1px solid white; */
+    color: white;
+    width: 1300px;
+    height: 150px;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    margin-left: 110px;
+}
+
+#findBest {
+    /* border: 1px solid white; */
+    height: 30px;
+    /* width: 100%; */
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 135px;
+}
+
+#whatSearch {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+#what {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 3px;
+    border: 0.1px solid gray;
+}
+
+/* #searchContainer{
+    display: flex;
+    margin-top: 90px;
+} */
+
+#location {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 3px;
+    border: 0.1px solid gray;
+}
+
+#searchBar {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+#fourBoxContainer {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    display: flex;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+
+#firstBox,
+#secondBox,
+#thirdBox,
+#fourthBox,
+#fifthBox {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px rgba(71, 71, 71, .2);
+    border-radius: 3px;
+
+    &:hover {
+        background-color: rgb(249, 25, 25);
+        color: white;
+    }
+
+}
+
+#homeLogo {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#restaurant {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#listings {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#howItWorks {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#threeBoxContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+#box1 {
+    width: 400px;
+    height: 430px;
+    background-color: white;
+    /* margin-top: 170px; */
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(71, 71, 71, .2);
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+
+#round1 {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    background-color: rgb(181, 181, 181);
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+#readMore{
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    color: gray;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#greyDiv{
+    /* width: 100%; */
+    height: 900px;
+    background-color: gainsboro;
+    margin-top: 150px;
+}
